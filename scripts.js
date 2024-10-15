@@ -24,8 +24,7 @@ function myFunc(param1){
 }
 
 function changeButton(){
-    if(document.getElementById('subbuto').innerHTML=== 'Subscribe'){
-        document.getElementById('subbuto').innerHTML=== "Subscribed"
+    if(document.getElementById('subbuto').innerTEXT=== 'Subscribe'){
+        document.getElementById('subbuto').innerTEXT= "Subscribed";
     }
 }
-myFunc()
