@@ -1,0 +1,28 @@
+h1{
+    color: crimson;
+    font-style:italic;
+    text-align: center;
+}
+.secondaryDiv{
+    /* background-color: rgb(28, 123, 129); */
+    align-items: center;
+    justify-self: center;
+}
+button{
+    padding: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 250px;
+    margin-right: 20px;
+    cursor: pointer;
+    border: 5px solid green;
+    
+}
+button:hover{
+    background-color: rgb(152, 167, 19);
+}
+body{
+    background-color: cadetblue;
+    color: blanchedalmond;
+    display: flex;
+}

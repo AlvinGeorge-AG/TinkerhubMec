@@ -1,0 +1,11 @@
+javascript
+
+alert("This is an alert")
+console.log("Hello_World")
+let variable_name  #initiated a variable 
+                   #for one variable do not use let more than one time
+
+
+if(condition){
+       exprestions
+}
