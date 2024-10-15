@@ -1,4 +1,5 @@
-//console.log('Hello MEC')
+
+// console.log('Hello MEC')
 // let x = 5;
 // console.log(x);
 // x = 10;
@@ -24,7 +25,15 @@ function myFunc(param1){
 }
 
 function changeButton(){
-    if(document.getElementById('subbuto').innerTEXT=== 'Subscribe'){
-        document.getElementById('subbuto').innerTEXT= "Subscribed";
+    if(document.getElementById('subButton').innerText === 'Subscribe'){
+        document.getElementById('subButton').innerText = 'Subscribed';
+        document.querySelector('.subBut').classList.remove('subBut');
+        document.querySelector('.subBut').classList.add('subButJS');
+    }
+    else{
+        document.getElementById('subButton').innerText = 'Subscribe';
+        document.querySelector('.subButJS').classList.add('subBut');
+        //document.querySelector('.subButJS').classList.remove('subButJS');  
     }
 }
+// myFunc()
