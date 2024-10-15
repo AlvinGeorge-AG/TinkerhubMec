@@ -8,7 +8,7 @@ h1{
     align-items: center;
     justify-self: center;
 }
-button{
+.firstbutton{
     padding: 50px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -18,11 +18,27 @@ button{
     border: 5px solid green;
     
 }
-button:hover{
+/* button:hover{
     background-color: rgb(152, 167, 19);
-}
+} */
 body{
     background-color: cadetblue;
     color: blanchedalmond;
+    display: flex;
+}
+
+.subbut2{
+    display: flex;
+    justify-self: center;
+    background-color: gray;
+}
+.subbut{
+    padding: 5px 10px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border-radius: 20px;
+    align-items: center;
+    justify-self: center;
+    margin-right: 50px;
     display: flex;
 }
